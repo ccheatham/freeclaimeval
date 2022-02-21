@@ -25,14 +25,13 @@
   [type='radio'] {
     @apply rounded border-gray-300 text-indigo-400 focus:ring-indigo-300;
   }
+}
 
-  [type='button']
-  {
+
+@layer components {
+  .button {
     @apply px-8 py-1 rounded-full bg-white text-pink-400 font-semibold shadow-xl shadow-pink-500/20;
   }
-
-/*  */
-
 }
 
 body {
