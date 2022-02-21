@@ -1,3 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  [type='text'],
+  [type='email'],
+  [type='url'],[
+  type='password'],
+  [type='number'],
+  [type='date'],
+  [type='datetime-local'],
+  [type='month'],
+  [type='search'],
+  [type='time'],
+  [type='tel'],
+  [type='week'],
+  [multiple],
+  textarea,
+  select {
+    @apply w-full border-gray-300 rounded-lg shadow-sm focus:border-gray-700 focus:ring-cyan-600;
+  }
+
+  [type='checkbox'],
+  [type='radio'] {
+    @apply rounded border-gray-300 text-indigo-400 focus:ring-indigo-300;
+  }
+
+  [type='button']
+  {
+    @apply px-8 py-1 rounded-full bg-white text-pink-400 font-semibold shadow-xl shadow-pink-500/20;
+  }
+
+/*  */
+
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
