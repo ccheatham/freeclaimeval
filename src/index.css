@@ -23,14 +23,14 @@
 
   [type='checkbox'],
   [type='radio'] {
-    @apply rounded border-gray-300 text-indigo-400 focus:ring-indigo-300;
+    @apply rounded border-gray-300 text-indigo-400 focus:ring-indigo-300 pb-5;
   }
 }
 
 
 @layer components {
   .button {
-    @apply px-8 py-1 rounded-full bg-white text-pink-400 font-semibold shadow-xl shadow-pink-500/20;
+    @apply border border-slate-300 border-2 bg-transparent px-14 py-3 text-gray-100 text-2xl uppercase font-semibold;
   }
 }
 
