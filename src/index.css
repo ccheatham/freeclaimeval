@@ -27,7 +27,6 @@
   }
 }
 
-
 @layer components {
   .button {
     @apply border border-slate-300 border-2 bg-transparent px-14 py-3 text-gray-100 text-2xl uppercase font-semibold;
