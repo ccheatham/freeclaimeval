@@ -4,7 +4,6 @@ import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import { VscLaw } from "react-icons/vsc";
 import xray from "./xray.png";
-import powder from "./formula_powder.jpg";
 import powder2 from "./formula_powder2.jpg";
 import bgImage from "./bg.jpg";
 import './App.css';
