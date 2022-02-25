@@ -29,7 +29,11 @@
 
 @layer components {
   .button {
-    @apply border border-slate-300 border-2 bg-transparent px-14 py-3 text-gray-100 text-2xl uppercase font-semibold;
+    @apply border border-slate-300 bg-transparent px-14 py-3 text-gray-100 text-2xl font-semibold;
+  }
+
+  .round-button {
+    @apply border border-slate-300 rounded-full bg-transparent px-14 py-3 text-gray-100 font-semibold;
   }
 }
 
