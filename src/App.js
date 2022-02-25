@@ -59,14 +59,14 @@ function App() {
               <h1 className="text-4xl font-sans text-zinc-100 mt-5 pl-10 mr-10 md:leading-snug md:text-5xl lg:pt-14 lg:mt-1 lg:pl-20">
                 Baby Formula Linked To Necrotizing Enterocolitis in Premature Infants
               </h1>
-              <h3 className="text-xl leading-relaxed md:text-2xl font-sans text-zinc-100 pt-14 pl-10 lg:mt-0 mr-8 lg:mr-0 lg:pl-20">
+              <h3 className="custom-leading text-xl leading-relaxed md:text-2xl font-sans text-zinc-100 pt-14 pl-10 lg:mt-0 mr-8 lg:mr-0 lg:pl-20">
                 Necrotizing enterocolitis (NEC) is the most common and serious intestinal disease among premature babies.
                 It happens when tissue in the small or large intestine is injured or inflamed. The use of cow-milk based
                 infant formula has been shown to cause severe cases of NEC. NEC leads to a buildup of acid in their stomach
                 that causes intestinal tissue to die and bacteria to spread causing an infection which their underdeveloped
                 immune systems may not be able to overcome.
               </h3>
-              <h3 className="text-xl leading-relaxed md:text-2xl font-sans text-zinc-100 pt-14 pl-10 lg:mt-0 mb-0 mr-8 lg:mr-0 lg:pl-20">
+              <h3 className="custom-leading text-xl leading-relaxed md:text-2xl font-sans text-zinc-100 pt-14 pl-10 lg:mt-0 mb-0 mr-8 lg:mr-0 lg:pl-20">
                 NEC attacks suddenly, acutely, and progresses rapidly. Many babies with NEC undergo surgery. Some are left
                 disabled. Some (an estimated 10-28%) even lose their lives.
               </h3>
@@ -110,15 +110,15 @@ function App() {
         </div>
         <div className="grid grid-cols-2">
           <div className="col-span-2 m-auto pl-10 pt-10">
-            <h6 className=" text-gray-500 text-4xl md:text-3xl pb-4 font-bold">What Are the Signs & Symptoms of Necrotizing Enterocolitis?</h6>
-            <h6 className=" text-gray-500 hidden text-2xl md:text-2xl md:inline-flex font-bold">A baby with necrotizing enterocolitis might have these symptoms:</h6>
+            <h6 className=" text-gray-500 text-4xl md:text-3xl pb-4 font-medium">What Are the Signs & Symptoms of Necrotizing Enterocolitis?</h6>
+            <h6 className=" text-gray-500 hidden text-2xl md:text-2xl lg:inline-flex font-medium">A baby with necrotizing enterocolitis might have these symptoms:</h6>
           </div>
-          <div className="pl-10 pr-10 pb-10 col-span-2 md:col-span-1 pt-10">
+          <div className="pl-10 pr-10 pb-10 col-span-2 lg:col-span-1 pt-10">
             <img src={xray} alt="xray" className="rounded-lg m-auto max-h-fit"/>
           </div>
-          <div className="ml-12 mr-10 mt-10 col-span-2 md:col-span-1">
-            <h6 className="text-2xl md:text-4xl text-gray-500 md:hidden ">A baby with necrotizing enterocolitis might have these symptoms:</h6>
-            <ul className="leading-relaxed ml-10 text-gray-500 list-disc list-outside pt-10 text-lg md:text-2xl font-bold">
+          <div className="ml-12 mr-10 mt-10 col-span-2 lg:col-span-1">
+            <h6 className="text-2xl md:text-4xl text-gray-500 lg:hidden ">A baby with necrotizing enterocolitis might have these symptoms:</h6>
+            <ul className="leading-relaxed ml-10 text-gray-500 list-disc list-outside pt-10 text-lg md:text-2xl font-normal">
               <li>a swollen, red, or tender belly</li>
               <li>trouble feeding</li>
               <li>food staying in the stomach longer than expected</li>
@@ -134,10 +134,10 @@ function App() {
           </div>
         </div>
         <div className="grid grid-cols-2">
-          <div className="ml-0 mr-10 mt:5 md:mt-10 col-span-2 md:col-span-1 md:hidden">
-            <img src={powder2} alt="xray" className="m-auto mt-10 md:ml-0 max-h-fit"/>
+          <div className="ml-10 mr-10 mt-5 lg:mt-10 col-span-2 lg:col-span-1 lg:hidden">
+            <img src={powder2} alt="xray" className="m-auto lg:ml-0"/>
           </div>
-          <div className="custom-leading md:pl-10 pt-10 pr-10 pb-10 pl-10 col-span-2 md:col-span-1 text-gray-500 pt-18 text-lg md:text-2xl font-bold">
+          <div className="custom-leading md:pl-10 pt-10 pr-10 pb-10 pl-10 col-span-2 lg:col-span-1 text-gray-500 pt-18 text-lg md:text-2xl font-medium">
             A growing body of convincing scientific research has established that feeding cow’s milk-based formula to
             premature infants dangerously increases the baby’s risk of developing necrotizing enterocolitis (NEC),
             but Abbott and Mead Johnson continue to advertise that Similac and Enfamil are specifically designed for
@@ -145,15 +145,15 @@ function App() {
             pose a substantial risk of NEC to newborns. Instead of communicating this information to parents and healthcare
             providers, they’ve chosen to put profits over people.
           </div>
-          <div className="hidden ml-0 mr-10 mt:5 md:mt-10 col-span-2 md:col-span-1 md:inline-flex">
+          <div className="hidden ml-0 mr-10 mt:5 md:mt-10 col-span-2 md:col-span-1 lg:inline-flex">
             <img src={powder2} alt="xray" className="m-auto md:ml-0 max-h-fit"/>
           </div>
         </div>
         <div className="grid grid-cols-2">
-          <div className="pl-10 pr-10 pb-10 col-span-2 md:col-span-1 pt-10">
+          <div className="pl-10 pr-10 pb-10 col-span-2 lg:col-span-1 pt-10">
             <img src={bgImage} alt="xray" className="rounded-lg m-auto max-h-fit"/>
           </div>
-          <div className="custom-leading md:pl-10 pt-10 pr-10 pb-10 pl-10 col-span-2 md:col-span-1 text-gray-500 pt-18 text-lg md:text-2xl font-bold">
+          <div className="custom-leading md:pl-10 pt-10 pr-10 pb-10 pl-10 col-span-2 lg:col-span-1 text-gray-500 pt-18 text-lg md:text-2xl font-medium">
             If your baby was one of the thousands born premature or with very low birth weight each year in the United States,
             he or she was likely fed high calorie, cow’s milk-based formula in the hospital or NICU to supplement or replace
             human milk feedings. Enfamil (made by Mead Johnson Nutrition) and Similac (made by Abbott Laboratories) are the
@@ -161,25 +161,33 @@ function App() {
           </div>
         </div>
         <div className="compensation md:overflow-auto">
-          <div className="font-sans grid grid-cols-1 mb-10 lg:grid-cols-2 lg:content-start">
+          <div className="font-sans grid grid-cols-1 mb-10 2xl:grid-cols-2 lg:content-start">
             <div className="text-left w-full">
               <h1 className="text-4xl font-sans text-zinc-100 mt-5 pl-10 mr-10 md:leading-snug md:text-5xl lg:pt-14 lg:mt-1 lg:pl-20">
                 Seek Compensation
               </h1>
-              <h3 className="text-xl leading-relaxed md:text-2xl font-sans text-zinc-100 pt-14 pl-10 lg:mt-0 mr-8 lg:mr-0 lg:pl-20">
-                It costs anywhere between $10,000 to $50,0000 to treat a baby with NEC. Medical bills pile up quickly, and they may continue to stack up – babies who recover from NEC can suffer lifelong complications. Meanwhile, the manufacturers of these dangerous products continue to profit from selling them to unsuspecting parents.
+              <h3 className="custom-leading text-xl md:text-2xl font-sans text-zinc-100 pt-14 pl-10 lg:mt-0 mr-8 lg:mr-0 lg:pl-20">
+                It costs anywhere between $10,000 to $50,0000 to treat a baby with NEC. Medical bills pile up quickly, and they may
+                continue to stack up – babies who recover from NEC can suffer lifelong complications. Meanwhile, the manufacturers
+                of these dangerous products continue to profit from selling them to unsuspecting parents.
               </h3>
-              <h3 className="text-xl leading-relaxed md:text-2xl font-sans text-zinc-100 pt-14 pl-10 lg:mt-0 mb-0 mr-8 lg:mr-0 lg:pl-20">
-                If your baby was born prematurely, diagnosed with NEC, and used Enfamil or Similac formula, we may be able to help. Mr. Barlow has decades of experience in the area of consumer protection and has been at the forefront of litigating some of the most challenging and significant consumer protection cases in the country. In so doing, he has secured hundreds of millions of dollars in compensation on behalf of his clients through jury verdicts and settlements.
+              <h3 className="custom-leading text-xl md:text-2xl font-sans text-zinc-100 pt-14 pl-10 lg:mt-0 mb-0 mr-8 lg:mr-0 lg:pl-20">
+                If your baby was born prematurely, diagnosed with NEC, and used Enfamil or Similac formula, we may
+                be able to help. Mr. Barlow has decades of experience in the area of consumer protection and has
+                been at the forefront of litigating some of the most challenging and significant consumer protection
+                cases in the country. In so doing, he has secured hundreds of millions of dollars in compensation on
+                behalf of his clients through jury verdicts and settlements.
               </h3>
-              <h3 className="text-xl leading-relaxed md:text-2xl font-sans text-zinc-100 pt-14 pl-10 lg:mt-0 mb-0 mr-8 lg:mr-0 lg:pl-20">
-                Anyone who believes they may have been affected by these products should contact an attorney as soon as possible to determine if they have a claim. Complete our intake form or call us today for a free consultation.
+              <h3 className="custom-leading text-xl md:text-2xl font-sans text-zinc-100 pt-14 pl-10 lg:mt-0 mb-0 mr-8 lg:mr-0 lg:pl-20">
+                Anyone who believes they may have been affected by these products should contact an attorney as
+                soon as possible to determine if they have a claim. Complete our intake form or call us
+                today for a free consultation.
               </h3>
             </div>
-            <div className=" pt-20 pb-20 m-auto">
+            <div className=" pt-20 pb-20 m-auto 2xl:grid-cols-2">
               <button className='round-button text-lg lg:text-2xl btn'>Start Claim Evaluation Now</button>
             </div>
-            <div className="pt-24 pb-5 m-auto col-span-1 lg:col-span-2 text-gray-500">
+            <div className="pt-24 pb-5 m-auto col-span-1 2xl:col-span-2 text-gray-500">
               Copyright 2022
             </div>
           </div>
