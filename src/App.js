@@ -28,7 +28,7 @@ function App() {
         <div />
       </Route>
       <Route path="/">
-        <div className="hero overflow-auto">
+        <div className="hero md:overflow-auto">
           <div className="grid grid-cols-2">
             <div className="mt-0 pt-0 pt-1.5 pl-5 text-lg text-gray-100">
               <VscLaw className="mt-2 ml-5 lg:ml-10" style={{ color: "#fff", width: "60px", height: "60px" }} />
@@ -104,6 +104,9 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+        <div>
+          <div className="xray rounded-lg" />
         </div>
       </Route>
     </Switch>
