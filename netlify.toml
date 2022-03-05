@@ -1,3 +1,8 @@
 [dev]
   targetPort = 3000 # # The port for your application server, framework or site generator
   #port = 8888 # The port that the netlify dev will be accessible on
+[build]
+  functions = "netlify/functions"
+  command = "yarn build"
+  publish = "build"
+  node_bundler = "esbuild"
